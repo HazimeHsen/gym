@@ -1,13 +1,13 @@
 "use client";
 import React, { useState } from "react";
-import ServiceCard from "./components/ServiceCard/ServiceCard";
-import ClientReviewCard from "./components/ClientReviewCard/ClientReviewCard";
-import TrainnerCard from "./components/TrainnerCard/TrainnerCard";
-import SubHead from "./components/Heading/SubHead";
-import Button from "./components/Buttons/Button";
-import Icon from "./components/Buttons/Icon";
-import PlanCard from "./components/Plans/PlanCard";
-import SectionHead from "./components/Heading/SectionHead";
+import ServiceCard from "./ServiceCard/ServiceCard";
+import ClientReviewCard from "./ClientReviewCard/ClientReviewCard";
+import TrainnerCard from "./TrainnerCard/TrainnerCard";
+import SubHead from "./Heading/SubHead";
+import Button from "./Buttons/Button";
+import Icon from "./Buttons/Icon";
+import PlanCard from "./Plans/PlanCard";
+import SectionHead from "./Heading/SectionHead";
 import Link from "next/link";
 import Image from "next/image";
 import {
