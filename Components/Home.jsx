@@ -139,7 +139,9 @@ const Landing = () => {
           </Button>
         </div>
       </div>
-      <div className="my-20 lg:flex items-center justify-between xl:my-40">
+      <div
+        id="about"
+        className="my-20 lg:flex items-center justify-between xl:my-40">
         <div className="px-5 lg:w-1/2">
           <Image
             width={300}
@@ -178,6 +180,7 @@ const Landing = () => {
       </div>
       {/* Service Section */}
       <div
+        id="services"
         className="bg-fixed bg-cover bg-center pt-20 pb-10"
         style={{ backgroundImage: `url(/assets/gallery/service.png)` }}>
         <div className="px-5 ">
@@ -198,7 +201,9 @@ const Landing = () => {
         </div>
       </div>
       {/* Feedback Section */}
-      <div className="mt-20 lg:flex items-center justify-between ">
+      <div
+        id="testemoials"
+        className="mt-20 lg:flex items-center justify-between ">
         <div className="px-5 lg:w-1/2">
           <Image
             className="block w-full md:w-fit max-w-[300px] md:max-w-[500px] mx-auto"
@@ -232,7 +237,7 @@ const Landing = () => {
         </div>
       </div>
       {/* Our Plans */}
-      <div className="bg-white py-10 px-5">
+      <div id="plans" className="bg-white py-10 px-5">
         <div className="flex justify-center mb-5">
           <div>
             <div className="flex items-center">
@@ -251,7 +256,7 @@ const Landing = () => {
       </div>
 
       {/* Team Members */}
-      <div className="bg-white py-10">
+      <div id="team" className="bg-white py-10">
         <div className="px-5 flex justify-center flex-col items-center">
           <div className="flex items-center">
             <div className="h-[2px] w-[100px] bg-main"></div>
